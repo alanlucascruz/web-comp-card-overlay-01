@@ -8,11 +8,11 @@ body {
 body {
   display: grid;
   place-items: center;
-  background: #020e26;
+  background: #363636;
 }
 .card {
   width: 344px;
-  border-radius: 16px;
+  border-radius: 24px;
 }
 .card img {
   display: block;
@@ -21,7 +21,7 @@ body {
   height: auto;
   transition: 0.5s;
   backface-visibility: hidden;
-  border-radius: 16px;
+  border-radius: 24px;
 }
 .card .overlay {
   position: absolute;
@@ -34,10 +34,10 @@ body {
 }
 .card .overlay button {
   color: #ffffff;
-  background: #b527cf;
+  background: #00AA3E;
   padding: 12px 24px;
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 18px;
   border: none;
   cursor: pointer;
   border-radius: 8px;
